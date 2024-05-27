@@ -36,6 +36,14 @@ const Azure: ModelProviderCard = {
       tokens: 128_000,
       vision: true,
     },
+    {
+      deploymentName: 'gpt-4o',
+      description: 'GPT-4o 视觉预览版，支持视觉任务',
+      displayName: 'GPT-4o Turbo with Vision Preview',
+      id: 'gpt-4o',
+      tokens: 128_000,
+      vision: true,
+    },
   ],
   id: 'azure',
 };

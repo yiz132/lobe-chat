@@ -46,6 +46,8 @@ const Azure: ModelProviderCard = {
     },
   ],
   id: 'azure',
+  name: 'Azure',
+  showBrowserRequest: true,
 };
 
 export default Azure;
